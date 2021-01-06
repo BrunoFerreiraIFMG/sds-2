@@ -1,0 +1,10 @@
+package com.ifmg.bruno.bfdeliver.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ifmg.bruno.bfdeliver.entities.Order;
+
+
+public interface OrdertRepository extends JpaRepository<Order, Long>{
+
+}

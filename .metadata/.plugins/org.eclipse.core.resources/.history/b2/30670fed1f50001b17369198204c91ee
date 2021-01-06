@@ -1,0 +1,5 @@
+package com.ifmg.bruno.bfdeliver.entities;
+
+public class Order {
+
+}

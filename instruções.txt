@@ -1,0 +1,58 @@
+Aulas
+https://devsuperior.com.br/sds2-aulas4583?blog=2dwf9sqq0&video=1
+
+Git
+https://github.com/devsuperior/sds2
+
+
+Youtube
+https://www.youtube.com/embed/a2DwTP0Q3YU
+https://www.youtube.com/embed/OpWfkIhcBoY
+
+
+BACKEND
+
+1- acesse https://start.spring.io/ para criar o projeto.
+
+2- ao abrir o projeto apareceu um erro, que pode ser resolvido instalando um plugin (https://stackoverflow.com/questions/56212981/eclipse-showing-maven-configuration-problem-unknown)
+
+Eclipse > Help > Install New Software > Work with= https://download.eclipse.org/m2e-wtp/signed/mavenarchiver/0.17.4/, <Enter>, m2e extensions= Y > Next...
+
+3) instalar as dependencias
+
+4) crie a base de dados bfdelivery
+
+5) crie os arquivos de configuração
+
+6) execute e teste (run as spring boot aplication) http:localhost:8080
+
+7) crie e copie a classe de segurança para desabilitar o cors
+
+8) crie a estrutura (models, repository, service, controllers)
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
+
+9) teste todas os endpoints no postmam
+
+
+10) depois criar o arquivo system.properties na raiz do projeto
+
+11) no heroku        https://git.heroku.com/bfdelivery.git
+     -criar projeto
+     -provisionar bd
+            JAWSDB_URL mysql://cwhwmhtuonbe8hst:z88ry42vhbd9vh9v@l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bg5v2t9ka6a2e3p4
+
+usuario
+cwhwmhtuonbe8hst
+senha
+z88ry42vhbd9vh9v
+host
+l0ebsc9jituxzmts.cbetxkdyhwsb.us-east-1.rds.amazonaws.com
+porta
+3306
+base de dados
+bg5v2t9ka6a2e3p4
+
+
+
+
+

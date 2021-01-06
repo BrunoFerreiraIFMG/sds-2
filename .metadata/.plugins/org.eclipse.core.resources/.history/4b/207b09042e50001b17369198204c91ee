@@ -1,0 +1,5 @@
+package com.ifmg.bruno.bfdeliver.services;
+
+public class ProductService {
+
+}
