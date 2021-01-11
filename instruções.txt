@@ -9,7 +9,7 @@ Youtube
 https://www.youtube.com/embed/a2DwTP0Q3YU
 https://www.youtube.com/embed/OpWfkIhcBoY
 
-
+==================================================
 BACKEND
 
 1- acesse https://start.spring.io/ para criar o projeto.
@@ -32,6 +32,12 @@ Eclipse > Help > Install New Software > Work with= https://download.eclipse.org/
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods
 
 9) teste todas os endpoints no postmam
+   depois de criar o projeto no github e digite no seu pc
+         git init, add, commit
+         git remote add origin https://github.com/BrunoFerreiraIFMG/sds-2.git
+         git branch -M main
+         git push -u origin main
+         
 
 
 10) depois criar o arquivo system.properties na raiz do projeto
@@ -52,7 +58,38 @@ porta
 base de dados
 bg5v2t9ka6a2e3p4
 
+12) upar a aplicação
+   heroku login
+   heroku git: remote -a bfdelivery
+   git remote -v
+   git subtree push --prefix backend heroku main
+
+13) testando - https://bfdelivery.herokuapp.com/products
 
 
+==================================================
+FRONTEND
 
+1) npx create-react-app front-web --template typescript 
+2) apague os arquivos desnecessários
+3) npm start
+4) npm install @types/react-router-dom
+   npm install react-router-dom	
+   coloquei isso no arquivo tsconfig.json para sumir um erro: "noImplicitAny": false,
+
+5) crie o navbar
+6) crie o home
+7) crie o footer
+8) criar o routes
+9) crie os orders, listcards e cards
+10) instalando o maps (https://react-leaflet.js.org/docs/start-installation)
+        npm install react react-dom leaflet
+        npm install react-leaflet
+        npm install -D @types/leaflet
+        copie o link css no public/index.html do site https://leafletjs.com/examples/quick-start/
+11) configurar a busca por endereço:
+        instalar npm install react-select
+12) crie uma conta no https://www.mapbox.com/
+13) crie o summary do order
+14) instale o toast: npm install react-toastify
 
