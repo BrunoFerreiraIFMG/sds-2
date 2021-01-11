@@ -92,4 +92,5 @@ FRONTEND
 12) crie uma conta no https://www.mapbox.com/
 13) crie o summary do order
 14) instale o toast: npm install react-toastify
+15) subir para o netlify: https://app.netlify.com/teams/brunoferreiraifmg/overview
 

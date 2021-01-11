@@ -12,9 +12,9 @@ import { toast } from 'react-toastify';
 function Orders(){
 
    const [products, setProducts] = useState<Product[]>([]);
-   const [orderLocation, setOrderLocation] = useState<OrderLocationData>({});
+   const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
    const [selectedProducts, setSelectedProducts] = useState<Product[]>([]);
-   const [amount,setAmount] = useState(0);
+   //const [amount,setAmount] = useState(0);
   
    const totalPrice = selectedProducts.reduce((sum, item)=>{
         return sum + item.price;
